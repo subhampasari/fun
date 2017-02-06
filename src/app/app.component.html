@@ -1,3 +1,11 @@
 <h1>
   {{title}}
 </h1>
+<br><hr>
+<nav>
+	<a [routerLink]="['/students']">Students</a>
+	<a [routerLink]="['/teachers']">Teachers</a>
+</nav>
+<div class="abc">
+	<router-outlet></router-outlet>
+</div>
